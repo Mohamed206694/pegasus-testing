@@ -1,0 +1,74 @@
+.ourblog {
+    background: #f1f1f1;
+    padding: 20px;
+}
+
+.ourblog h1 {
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 60px;
+    font-size: 60px;
+}
+
+.ourblog h3 {
+    padding: 20px;
+}
+
+.ourblog .column-right h3 {
+    padding: 20px;
+    padding-right: 0px;
+}
+
+.ourblog p {
+    padding: 20px;
+}
+
+.ourblog h5 {
+    padding: 0 0 20px 20px;
+}
+
+.ourblog .column-left {
+    float: left;
+    width: 75%;
+}
+
+.ourblog .column-right {
+    float: right;
+    width: 25%;
+}
+
+img {
+    padding: 20px;
+}
+
+.bcard {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.column-right ul li {
+    display: inline-block;
+    padding: 10px 0px 10px 20px;
+}
+
+.column-right ul li a i.fa-facebook {
+    color: #3b5998;
+}
+
+.column-right ul li a i.fa-linkedin {
+    color: #007bb6;
+}
+
+.column-right ul li a i.fa-twitter {
+    color: #00aced;
+}
+
+@media screen and (max-width:992px) {
+    .ourblog .column-right,
+    .ourblog .column-left,
+    img {
+        width: 100%;
+    }
+}
